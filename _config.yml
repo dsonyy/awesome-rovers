@@ -1,10 +1,8 @@
 # Site Specific Configuration
-name: LightSpeed
-description: A simple Jekyll theme
-url: https://example.com
-author: tajacks
-timezone: America/Toronto
-timezone_short: ET
+name: Awesome Rovers
+description: Discover a world of rovers from NASA, student projects, DIY builds, and educational creations! Dive into fascinating stories, innovations, and unique features of each rover exploring our planet and beyond.
+url: https://dsonyy.github.io/awesomerovers
+author: dsonyy
 
 # Post summary
 excerpt_separator: <!--more-->
@@ -24,14 +22,6 @@ sass:
   sass_dir: _sass
   style: expanded # compact, expanded or compressed
 
-# Paginate v2
-pagination:
-  enabled: true
-  # collection: "_posts"
-  # per_page: 10
-  # permalink: "/page/:num/"
-  # sort_field: "title"
-
 # Category Paginating
 autopages:
   enabled: true
@@ -41,10 +31,9 @@ autopages:
     silent: false
 
 # Exclusions
-exclude: ["README.md", "COPYING"]
+exclude: ["README.md", "LICENSE"]
 
 # Plugins
 plugins:
   - jekyll-feed
-  - jekyll-paginate-v2
   - jekyll-seo-tag
