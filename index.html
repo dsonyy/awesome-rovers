@@ -1,0 +1,9 @@
+---
+layout: default
+title: Only Rovers
+pagination:
+  enabled: true
+---
+
+{% if site.posts %} {% for post in paginator.posts %} {% include post.html
+post=post %} {% endfor %} {% endif %}

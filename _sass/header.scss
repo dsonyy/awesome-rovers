@@ -1,0 +1,33 @@
+.header {
+  padding-top: 35px;
+  width: calc(min(80vw, 500px));
+  margin: 0 auto 0 auto;
+}
+
+.header nav {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav a {
+  padding-right: 3px;
+}
+
+.header div {
+  font-size: 16px;
+  padding: 20px 0 20px 0 ;
+}
+
+.header .welcome {
+  text-align: center;
+}
+
+.header .short {
+  text-align: justify;
+  font-weight: bold;
+}
+
+.header .long {
+  text-align: justify;
+}

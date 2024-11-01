@@ -1,0 +1,20 @@
+<div class="post">
+  <h2>{{ post.title }}</h2>
+  <div class="info">
+    {% for param in post.rover %}
+    <div>{{ param[0] }}:</div>
+    {% if param[1].link %}
+    <div><a href="{{ param[1].link }}">{{ param[1].text }}</a></div>
+    {% else %}
+    <div>{{ param[1].text }}</div>
+    {% endif %} {% endfor %}
+  </div>
+  <div class="content">
+    <p>{{ post.excerpt }}</p>
+  </div>
+  {% if post.read_more %}
+  <div class="read-more">
+    <a href="{{ post.url }}">➡️ Read more...</a>
+  </div>
+  {% endif %}
+</div>

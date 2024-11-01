@@ -1,0 +1,118 @@
+/* Style inspiration and settings adapted from https://github.com/jgthms/web-design-in-4-minutes*/
+
+/* Base */
+html {
+  font-size: 18px;
+}
+
+/* 01 Font family */
+
+body {
+  // font-family: 'Lato', 'Open Sans', sans-serif;
+
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* 03 Spacing */
+
+
+.padded {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  // line-height: 30px;
+}
+
+.main-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  // line-height: 30px;
+}
+
+div.main-content h2 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+/* 04 Color and contrast */
+
+body {
+  color: #c5ccce;
+  background-color: #1e1e1e;
+}
+
+h1,
+h2,
+strong {
+  color: #dcdede;
+}
+
+header h5 {
+  font-weight: lighter;
+}
+
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+
+a {
+  color: rgb(255, 255, 255);
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+// add color transition on a hover
+a:hover {
+  color: #c5ccce;
+  cursor: pointer;
+}
+
+
+h1,
+h2,
+strong {
+  font-weight: 700;
+}
+
+// center text for h1
+h1 {
+  text-align: center;
+}
+
+
+
+
+img {
+  border: #545454 1px solid;
+  margin: 5px 0 5px 0;
+}
+
+figure {
+  margin: 20px 0 20px 0;
+}
+
+figcaption {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+.read-more {
+  margin: 20px 0 20px 0;
+  text-align: center;
+}
+
+hr {
+  margin-top: 10px;
+  border-top: 1px solid #545454;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;  
+}
