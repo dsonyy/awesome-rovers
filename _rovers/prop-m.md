@@ -35,7 +35,7 @@ rover:
     <a href="{{ site.url }}/assets/img/prop-m/4.png"><img src="{{ site.url }}/assets/img/prop-m/4.png" /></a>
     <a href="{{ site.url }}/assets/img/prop-m/3.gif"><img src="{{ site.url }}/assets/img/prop-m/3.gif" width=600/></a>
     <div class="iframe-container">
-        <iframe src="https://www.youtube-nocookie.com/embed/tVJfjDOa3TI?si=-L04KCegI0x4eYzF&amp;start=528" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        <iframe src="https://www.youtube-nocookie.com/embed/tVJfjDOa3TI?si=-L04KCegI0x4eYzF&amp;start=528" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" width="100%" height="100%" allowfullscreen>
         </iframe>
     </div>
     <figcaption>Soviet Space Program / VNIITransmash</figcaption>
