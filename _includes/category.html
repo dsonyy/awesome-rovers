@@ -1,4 +1,9 @@
-<h1>Rovers in #{{ page.category }} category</h1>
+<h1>{{ include.category | capitalize }} rovers</h1>
 
-{% for post in site.categories[page.category] %} {% include post.html post=post
-%} {% endfor %}
+<!-- getting all posts with included category -->
+{% assign posts = site.rovers | where_exp: 'post', "post.categories contains include.category" %}
+
+<!-- render post -->
+{% for post in posts %}
+    {% include post.html %}
+{% endfor %}

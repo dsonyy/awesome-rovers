@@ -2,9 +2,4 @@
 layout: default
 ---
 
-<div class="post-info">
-  <h2>{{ page.title }}</h2>
-  <p>{{ page.date | date_to_string }} | {{ page.author }}</p>
-</div>
-
-<div class="post-content">{{ content }}</div>
+{% assign post = page %} {% include post.html %}

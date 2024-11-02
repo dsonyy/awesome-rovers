@@ -1,6 +1,12 @@
 <nav>
-  <a href="{{ site.url }}/">Home</a>
-  <a href="{{ site.url }}/category/earth">Earth</a>
-  <a href="{{ site.url }}/category/moon">Moon</a>
-  <a href="{{ site.url }}/category/mars">Mars</a>
+  <a href="{{ site.url }}">Home</a>
+  <a href="{{ site.url }}/list">List</a>
+
+  <!-- get all rovers categories -->
+  {% assign all_categories = site.rovers | map: 'categories' | uniq | sort %}
+
+  <!-- iterate over categories -->
+  {% for category in all_categories -%}
+  <a href="{{ site.url }}?categories={{ category }}">#{{ category }}</a>
+  {% endfor %}
 </nav>

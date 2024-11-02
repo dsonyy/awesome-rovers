@@ -10,13 +10,47 @@ excerpt_separator: <!--more-->
 # Keywords
 keywords: ["seo", "key", "words"]
 
+# Collections
+collections:
+  rovers:
+    output: true
+    permalink: /rovers/:path/
+    layout: "post"
+    order: "asc"
+    sort_by: "title"
+
+# Defaults
+defaults:
+  - scope:
+      path: "_rovers/"
+    values:
+      title: Untitled
+      categories:
+      layout: post
+      read_more: false
+      rover:
+        designer:
+          text: N/D
+        launch:
+          text: N/D
+        mission:
+          text: N/D
+        destination:
+          text: N/D
+        status:
+          text: N/D
+        weight:
+          text: N/D
+        dimensions:
+          text: N/D
+
 # Styling
 sass:
   sass_dir: _sass
   style: expanded # compact, expanded or compressed
 
 # Exclusions
-exclude: ["README.md", "LICENSE"]
+exclude: ["README.md", "LICENSE", "_rovers/_template.md"]
 
 # Plugins
 plugins:

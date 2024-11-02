@@ -3,6 +3,12 @@ layout: default
 title: Only Rovers
 ---
 
-<!-- posts -->
-{% if site.posts %} {% for post in site.posts %} {% include post.html post=post
-%} {% endfor %} {% endif %}
+<!-- render all rover post summaries -->
+{% if site.rovers %} 
+    {% for post in site.rovers %} 
+        {% include post.html %} 
+    {% endfor %} 
+{% endif %}
+
+<!-- filter categories -->
+<script src="{{ site.url }}/assets/js/categories.js"></script>

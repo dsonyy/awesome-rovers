@@ -1,0 +1,34 @@
+---
+layout: default
+title: Contents
+---
+
+<!-- all rovers -->
+<div class="post">
+    <h2>All</h2>
+    <!-- list all pages  -->
+    {% for page in site.rovers %}
+        <li>
+            <a href="{{ site.url }}/#{{ page.title }}">{{ page.title }}</a>
+        </li>
+    {% endfor %}
+</div>  
+
+<!-- get all rovers categories -->
+{% assign all_categories = site.rovers | map: 'categories' | uniq | sort %}
+
+<!-- iterate over categories -->
+{% for category in all_categories -%}
+    {% assign pages = site.rovers | where_exp: 'page', "page.categories contains category" %}
+    <div class="post">
+        <h2>{{ category | capitalize }}</h2>    
+        
+        <!-- list all pages  -->
+        {% for page in pages %}
+            <li>
+                <a href="{{ site.url }}?categories={{ category }}#{{ page.title }}">{{ page.title }}</a>
+            </li>
+        {% endfor %}
+    </div>
+{% endfor %}
+

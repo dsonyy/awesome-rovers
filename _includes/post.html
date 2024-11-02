@@ -1,11 +1,17 @@
-<div class="post">
+<div
+  class="post"
+  post-title="{{ post.title }}"
+  post-categories="{{ post.categories | join: ',' }}"
+>
   <!-- post title -->
-  <h2>{{ post.title }}</h2>
+  <a id="{{ post.title }}" href="{{ site.url }}/#{{ post.title }}"
+    ><h2>{{ post.title }}</h2></a
+  >
 
   <!-- categories -->
   <div class="tags">
     {% for cat in post.categories %}
-    <a><span>#{{ cat }}</span></a>
+    <a href="{{ site.url }}?categories={{ cat }}"><span>#{{ cat }}</span></a>
     {% endfor %}
   </div>
 

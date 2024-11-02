@@ -1,6 +1,10 @@
 # Jekyll ignores
-.jekyll-cache
 _site
+_draft
+.jekyll-cache
 .sass-cache
 .jekyll-metadata
 .jekyll-cache
+
+# Misc
+.vscode

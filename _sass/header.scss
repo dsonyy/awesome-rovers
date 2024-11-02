@@ -1,20 +1,22 @@
 .header {
   padding-top: 35px;
-  margin: 0 auto 0 auto; 
+  margin: 0 auto 0 auto;
 }
 
 .header nav {
   padding-top: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .header nav a {
-  padding-right: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .header div {
-  padding: 20px 0 20px 0 ;
+  padding: 20px 0 20px 0;
 }
 
 .header .welcome {
