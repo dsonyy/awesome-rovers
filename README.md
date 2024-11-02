@@ -1,6 +1,6 @@
 # Awesome Rovers
 
-### [🌎 TRY DEMO 🌕](dsonyy.github.io/awesomerovers)
+### [🌎 TRY DEMO 🌕](dsonyy.github.io/awesome-rovers)
 
 ## Build and Serve
 
