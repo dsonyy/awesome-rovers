@@ -1,7 +1,6 @@
 
 .post {
   font-family: 'Lato';
-  width: calc(min(80vw, 500px));
   margin: 0px auto 50px auto;
   text-align: justify;
 }
@@ -13,12 +12,22 @@
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 16px;
+  line-height: 1.5em; 
 }
 
 .post .info div:nth-child(even) {
   color: white;
 }
 
+.post .info div:nth-child(odd) {
+  text-transform: capitalize;
+}
+
 .post .content {
   margin-top: 20px;
+}
+
+.tags span {
+  font-size: 16px;
+  color: grey
 }

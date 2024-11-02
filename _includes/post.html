@@ -1,5 +1,15 @@
 <div class="post">
+  <!-- post title -->
   <h2>{{ post.title }}</h2>
+
+  <!-- categories -->
+  <div class="tags">
+    {% for cat in post.categories %}
+    <a><span>#{{ cat }}</span></a>
+    {% endfor %}
+  </div>
+
+  <!-- table with detailed info -->
   <div class="info">
     {% for param in post.rover %}
     <div>{{ param[0] }}:</div>
@@ -9,9 +19,13 @@
     <div>{{ param[1].text }}</div>
     {% endif %} {% endfor %}
   </div>
+
+  <!-- post summary -->
   <div class="content">
     <p>{{ post.excerpt }}</p>
   </div>
+
+  <!-- optional readme button, if more content exists -->
   {% if post.read_more %}
   <div class="read-more">
     <a href="{{ post.url }}">➡️ Read more...</a>
