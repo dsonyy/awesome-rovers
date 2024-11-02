@@ -2,6 +2,23 @@
 
 ### [🌎 VISIT HERE 🌕](https://dsonyy.github.io/awesome-rovers)
 
+## Contributing
+
+### Adding a rover
+
+To add a new rover article to the website:
+
+1. Go to the `_rovers` directory in the repository.
+2. Copy the `_template.md` file. This template file provides the structure needed for each new article.
+3. Rename the file to the unique name of your rover.
+4. Fill in the content as instructed in the template, including any relevant metadata (like title, description, etc.).
+5. Add any images related to your article in the `/assets/img/name-of-your-rover/...` directory. Make sure to use descriptive names to keep the images organized.
+6. Afterward, please submit a pull request for review.
+
+### Other Changes
+
+If you have any other ideas, improvements, or fixes, feel free to make those changes and submit them in a pull request. Contributions of all kinds are welcome and highly appreciated!
+
 ## Build and Serve
 
 Follow these steps to build and serve the site locally:
@@ -32,23 +49,6 @@ Follow these steps to build and serve the site locally:
    ```bash
    bundle exec jekyll serve
    ```
-
-## Contributing
-
-### Adding a rover
-
-To add a new rover article to the website:
-
-1. Go to the `_rovers` directory in the repository.
-2. Copy the `_template.md` file. This template file provides the structure needed for each new article.
-3. Rename the file to the unique name of your rover.
-4. Fill in the content as instructed in the template, including any relevant metadata (like title, description, etc.).
-5. Add any images related to your article in the `/assets/img/name-of-your-rover/...` directory. Make sure to use descriptive names to keep the images organized.
-6. Afterward, please submit a pull request for review.
-
-## Other Changes
-
-If you have any other ideas, improvements, or fixes, feel free to make those changes and submit them in a pull request. Contributions of all kinds are welcome and highly appreciated!
 
 ## Development
 
