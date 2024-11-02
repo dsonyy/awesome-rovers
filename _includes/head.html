@@ -7,22 +7,16 @@
   content="{% if page.tags %}{{ page.tags | join: ','}}{% else %}{{ site.keywords | join: ',' }}{% endif %}"
 />
 {% endif %}
-<link
-  href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
-  rel="stylesheet"
-/>
-<link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet" />
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/favicon.ico" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+  rel="stylesheet"
+/>
 <link
   rel="stylesheet"
   type="text/css"
   href="{{ site.baseurl }}/assets/css/styles.css"
 />
-{% if site.analytics.plausible.enabled %}
-<script
-  defer
-  data-domain="{{ site.analytics.plausible.site_fqdn }}"
-  src="{{ site.analytics.plausible.script_source }}"
-></script>
-{% endif %}
