@@ -1,6 +1,4 @@
-
 .post {
-  font-family: 'Lato';
   margin: 0px auto 50px auto;
   text-align: justify;
 }
@@ -12,7 +10,7 @@
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 16px;
-  line-height: 1.5em; 
+  line-height: 1.5em;
 }
 
 .post .info div:nth-child(even) {
@@ -29,5 +27,5 @@
 
 .tags span {
   font-size: 16px;
-  color: grey
+  color: grey;
 }

@@ -7,13 +7,12 @@ html {
 /* 01 Font family */
 
 body {
-  font-family: 'Lato', 'Open Sans', sans-serif;
+  font-family: "Futura", "Lato", "Open Sans", sans-serif;
   line-height: 1.5em;
   font-size: 18px;
 }
 
 /* 03 Spacing */
-
 
 .padded {
   padding-top: 30px;
@@ -49,12 +48,10 @@ header h5 {
   font-weight: lighter;
 }
 
-
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
-
 
 a {
   color: rgb(255, 255, 255);
@@ -72,20 +69,17 @@ a:hover {
   cursor: pointer;
 }
 
-
 h1,
 h2,
 strong {
   font-weight: 700;
+  padding: 20px 0 20px 0;
 }
 
 // center text for h1
 h1 {
   text-align: center;
 }
-
-
-
 
 img {
   border: #545454 1px solid;
@@ -97,11 +91,10 @@ figure {
 }
 
 figcaption {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   font-size: 12px;
 }
-
 
 .read-more {
   margin: 20px 0 20px 0;
@@ -113,5 +106,5 @@ hr {
   border-top: 1px solid #545454;
   border-bottom: none;
   border-left: none;
-  border-right: none;  
+  border-right: none;
 }
