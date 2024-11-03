@@ -26,15 +26,19 @@
     {% endif %} {% endfor %}
   </div>
 
-  <!-- post summary -->
+  <!-- weather render full post -->
+  {% if include.render_full %}
+  <!-- render full post -->
+  <div class="content">{{ post.content }}</div>
+  {% else %}
+  <!-- render only the summary -->
   <div class="content">
     <p>{{ post.excerpt }}</p>
   </div>
-
   <!-- optional readme button, if more content exists -->
   {% if post.read_more %}
   <div class="read-more">
     <a href="{{ post.url }}">➡️ Read more...</a>
   </div>
-  {% endif %}
+  {% endif %} {% endif %}
 </div>
