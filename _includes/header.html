@@ -24,6 +24,16 @@
       >Contribute and add your ideas!</a
     >
   </div>
+  <div class="long">
+    <p>
+      👉 Currently, there are <strong>{{ site.rovers | size }}</strong> rovers
+      in
+      <strong>{{ site.rovers | map: 'categories' | uniq | size }}</strong>
+      categories.
+    </p>
+    <p>👉 Last updated <strong>{{ site.time | date: '%Y/%m/%d' }}</strong>.</p>
+  </div>
+
   {% include nav.html %}
   <hr />
 </div>
