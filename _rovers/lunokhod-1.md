@@ -45,5 +45,8 @@ rover:
 <!-- text section -->
 Lunokhod 1 was the first robotic rover to explore the Moon, launched by the Soviet Union in 1970 as part of the Luna 17 mission. It was designed to operate for three lunar days, and surpassed expectations by functioning for 321 earth days, during which time it covered 10.54 km and transmitted over 20,000 images and 206 high-resolution panoramas. The rover weighted 840 kg and featured eight independently powered wheels, solar-rechargeable batteries and cameras. Scientific instruments onboard included a soil penetrometer, x-ray spectrometer, and a French laser retroreflector. Lunokhod 1's final position remained unknown until 2010, when researchers pinpointed it for renewed laser-ranging experiments. It ceased operations in October 1971, contributing valuable insights into the properties of lunar terrain.
 
+- [Lunokhod 1 on Wikipedia](https://en.wikipedia.org/wiki/Lunokhod_1)
+- [Luna 17 on Wikipedia](https://en.wikipedia.org/wiki/Luna_17)
+
 <!--more-->
 <!-- NOTE: set "read_mode" to "true" if you add content below this line -->
