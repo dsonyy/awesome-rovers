@@ -19,10 +19,10 @@ rover:
     text: In development
     link:
   weight:
-    text: "?"
+    text: 2 kg
     link:
   dimensions:
-    text: "?"
+    text: 21 x 30 x 10 cm
     link:
 ---
 
